@@ -220,7 +220,8 @@ public class UwcWindowTexture : MonoBehaviour
     void Update()
     {
         UpdateSearchTiming();
-        UpdateTargetWindow();
+		// Don't update the target window here, but rather let CaptureWindow class from medneoVR do it.
+        //UpdateTargetWindow();
 
         if (!isValid) {
             material_.mainTexture = null;
