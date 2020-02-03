@@ -259,7 +259,7 @@ public class UwcWindowTexture : MonoBehaviour
         window.cursorDraw = drawCursor;
 
         if (material_.mainTexture != window.texture) {
-            material_.mainTexture = window.texture;
+            //material_.mainTexture = window.texture;
         }
     }
 
