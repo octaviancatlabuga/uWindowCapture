@@ -1,0 +1,16 @@
+{
+    "name": "uWindowCapture.Editor",
+    "references": [
+        "GUID:0a0080a5a328c764297352787acac846"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
